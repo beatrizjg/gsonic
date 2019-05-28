@@ -1,4 +1,4 @@
-#!/home/bjimenez/Escritorio/Inteligencia A/gsonic/env/bin/python
+#!/home/beatriz/Escritorio/IA/Lab/env/bin/python
 
 import sys
 import getopt
