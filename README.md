@@ -22,7 +22,22 @@
     ``` console
        python sonic.py
    ```
-## Si sonic se mueve, entonces ya funciona.
+### Si sonic se mueve, entonces ya funciona.
 
+## Instruciones del controlador.
+Para aprovechar el uso del controlador, basta con copiar o descargar el archivo sonic.py de este repositorio
+pegarlo en la carpeta de instalacion, reemplazar y listo.
 
-####  Este desarrollo mas que nada es con fines educativos, en el cual esta basado en crear un controlador que me permita controlar a Sonic por medio del teclado.
+Para correrlo: 
+```Console
+  source env/bin/activate
+  python sonic.py
+  ``` 
+  
+El controlador de sonic consiste en 4 teclas las cuales se detallaran su funcionamiento:
+ * movimiento de saltar
+ * correr
+ * retroceder 
+ * abajo
+
+Teniendo en cuenta que el controlador de sonic esta desarrollado para que avance hasta completar el nivel 1, en el cual estas pasadas se proceden a guardar en un archivo csv para una recoleccion de data.
